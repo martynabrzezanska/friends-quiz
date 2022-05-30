@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
    margin: 0;
    padding: 0; 
 }
@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(189, 154, 221);
+    background-color: rgb(143, 99, 166);
 }
 
 /* Style the header with a yellow background and some padding */
@@ -61,18 +61,47 @@ body {
     float: right;
 }
 
-.header-right a {
-    margin-left: 30px;
-}
+/* Style the quiz container */
 
-.quiz-container {
-    display: flex;
-    flex-direction: column;
+.container {
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 80px;
+}
+
+.question {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    border-radius: 10px;
     background-color: white;
-    width: 60%;
-    margin-top: 200px;
-    padding: 30px;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4 rem rgba(86, 185,235, 0.5);
+    transform: translate(-0.1rem);
+    transition: 100ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: pink;
+    border-radius: 10px;
+    color: black;
+}
+
+.choice-text {
+    padding: 1.5rem;
 }
