@@ -16,6 +16,7 @@ body {
 .header {
     overflow: hidden;
     background-color: #FFFF00;
+    padding: 10px 10px;
 }
 
 /* Style the header links */
@@ -41,8 +42,8 @@ body {
 
 /* Change the background color on mouse-over */
 
-.header a:hover {
-    background-color: #FFFFFF;
+.header .logo a:hover {
+    background-color: transparent;
     color: #000000;
 }
 
@@ -57,4 +58,8 @@ body {
 
 .header-right {
     float: right;
+}
+
+.header-right a {
+    margin-left: 30px;
 }
