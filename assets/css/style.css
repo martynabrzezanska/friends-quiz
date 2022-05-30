@@ -63,7 +63,7 @@ body {
 
 /* Style the quiz container */
 
-.container {
+.quiz-container {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -85,7 +85,7 @@ body {
     font-size: 1.8rem;
     border: 0.1rem solid rgb(86, 165, 235, 0.25);
     border-radius: 10px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .choice-container:hover {
@@ -96,12 +96,20 @@ body {
 }
 
 .choice-prefix {
-    padding: 1.5rem 2.5rem;
-    background-color: pink;
-    border-radius: 10px;
+    padding: 1.0rem 2.0rem;
+    background-color: rgb(246, 212, 218);
+    border-radius: 10px 0px 0px 10px;
     color: black;
+    font-weight: bold;
 }
 
 .choice-text {
-    padding: 1.5rem;
+    padding: 1.0rem;
+}
+
+
+
+.score-area .scores {
+    display: inline-block;
+    margin-left: 40px;
 }
