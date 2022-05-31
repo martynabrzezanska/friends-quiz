@@ -61,57 +61,26 @@ body {
     top: 0;
 }
 
-/* Style the quiz container */
 
-.quiz-container {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 500px;
-    width: 50%;
-    margin-top: 80px;
-    border-radius: 5px 5px 5px 50px;
-    border: 2px solid black;
-    padding: 10px 5px 15px;
-}
-
-.question {
-    margin-bottom: 20px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.choice-container {
-    display: flex;
-    margin-bottom: 0.5rem;
+footer {
+    background-color: rgb(185, 58, 185);
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    font-size: 1.8rem;
-    border: 0.1rem solid black;
-    border-radius: 10px;
-    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.choice-container:hover {
+footer .icon-media {
+    font-size: 30px;
+    letter-spacing: 10px;
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4 rem rgba(86, 185, 235, 0.5);
-    transform: translate(-0.1rem);
-    transition: 100ms;
+    text-decoration: none;
 }
 
-.choice-prefix {
-    padding: 1.0rem 2.0rem;
-    background-color: rgb(246, 212, 218);
-    border-radius: 10px 0px 0px 10px;
-    color: black;
-    font-weight: bold;
-}
-
-.choice-text {
-    padding: 1.0rem;
-}
-
-.score-area .scores {
-    display: inline-block;
-    margin-left: 40px;
+.icon-media a {
+    text-decoration: none;
+    color: white;
 }

@@ -6,7 +6,7 @@ const question = [{
             option3: "Central Park",
             option4: "The Empire State Building"
         },
-        rightAnswer: "2"
+        correctAnswer: "2"
     },
 
     {
