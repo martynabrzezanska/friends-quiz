@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,58 +10,55 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(143, 99, 166);
+    background-color: white;
 }
 
 /* Style the header with a yellow background and some padding */
 
-.mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: pink;
-    height: 500px;
-    color: white;
-    border-radius: 10px;
-}
-
-.header {
+.header .logo {
     overflow: hidden;
-    background-color: yellow;
+    background-color: rgb(109, 202, 233);
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
+    text-align: center;
 }
 
-.header .header-right {
-    display: none;
+.logo .fa-solid {
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 5px;
+    font-size: 40px;
 }
 
 .header a {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     display: block;
 }
 
-.header a.icon {
-    background: red;
+.header #header-right {
+    display: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    background-color: rgb(88, 118, 128, 0.15);
+}
+
+#header-right a:hover {
+    background-color: rgb(88, 118, 128, 0.25);
+    transition: box-shadow .3s;
+    /* adding the transition to make it more attractive and interactive for the user*/
+}
+
+.header a.icon-bar {
+    background: rgb(109, 202, 233);
+    font-size: 30px;
     display: block;
     position: absolute;
+    padding: 12px;
     right: 0;
     top: 0;
-}
-
-.header a.icon:hover {
-    background-color: blue;
-}
-
-.header a:hover {
-    background-color: yellow;
-    color: black;
-}
-
-.active {
-    background-color: pink;
-    color: white;
 }
 
 /* Style the quiz container */
@@ -72,8 +69,11 @@ body {
     align-items: center;
     text-align: center;
     width: 500px;
-    max-width: 50%;
-    padding-top: 80px;
+    width: 50%;
+    margin-top: 80px;
+    border-radius: 5px 5px 5px 50px;
+    border: 2px solid black;
+    padding: 10px 5px 15px;
 }
 
 .question {
@@ -87,7 +87,7 @@ body {
     margin-bottom: 0.5rem;
     width: 100%;
     font-size: 1.8rem;
-    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    border: 0.1rem solid black;
     border-radius: 10px;
     background-color: #FFFFFF;
 }
