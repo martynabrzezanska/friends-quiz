@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
     restartButton.addEventListener('click', restartQuiz);
 })
 
-/* Hamburger menu tp toggle between showing and hiding the navigation menu with a click */
+/* Hamburger menu t0 toggle between showing and hiding the navigation menu with a click */
 
 function myFunction() {
     var x = document.getElementById("header-right");
