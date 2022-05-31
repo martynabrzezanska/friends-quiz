@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Friends Quiz</title>
 </head>
+
 <body>
 
     <div class="header">
@@ -23,41 +25,48 @@
                 <i class="fa-solid fa-n"></i>
                 <i class="fa-solid fa-d"></i>
                 <i class="fa-solid fa-s"></i>
-                </a>
-        <div class="header-right">
-          <a class="active" href="#home">Home</a>
-          <a href="#contact">About</a>
-          <a href="#about">Shop</a>
-        </div>
-      </div>
+            </a>
+            <div class="header-right">
+                <a class="active" href="#home">Home</a>
+                <a href="#contact">About</a>
+                <a href="#about">Shop</a>
+            </div>
+    </div>
 
+    <!--Question area-->
     <div class="quiz-container">
         <h2 class="question">What is the answer to this question?</h2>
-        <div class="choice-container">
-            <p class="choice-prefix">A</p>
-            <p class="choice-text">CHOICE 1</p>
-        </div>
-        <div class="choice-container">
-            <p class="choice-prefix">B</p>
-            <p class="choice-text">CHOICE 2</p>
-        </div>
-        <div class="choice-container">
-            <p class="choice-prefix">C</p>
-            <p class="choice-text">CHOICE 3</p>
-        </div>
-        <div class="choice-container">
-            <p class="choice-prefix">D</p>
-            <p class="choice-text">CHOICE 4</p>
-        </div>
-        <div class="btn-wrapper">
-        <button class="btn next-btn">Next question</button>
-        <button class="btn submit-btn">Submit</button>
-    </div>
-    <div class="score-area">
-        <p class="scores">Correct Answers: <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-    </div>
-    </div>
-    <script src="assets/js/script.js"></script>
+        <div class="question-bar">
+            <div>
+                <span id="question-counter">Question 0 / 10</span>
+            </div>
+            <div>
+                <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <p class="choice-text">CHOICE 1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">B</p>
+                    <p class="choice-text">CHOICE 2</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">C</p>
+                    <p class="choice-text">CHOICE 3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">D</p>
+                    <p class="choice-text">CHOICE 4</p>
+                </div>
+                <div class="btn-wrapper">
+                    <button class="btn next-btn">Next question</button>
+                    <button class="btn submit-btn">Submit</button>
+                </div>
+                <div class="score-area">
+                    <p class="scores">Correct Answers: <span id="score">0</span></p>
+                    <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+                </div>
+            </div>
+            <script src="assets/js/script.js"></script>
 </body>
+
 </html>

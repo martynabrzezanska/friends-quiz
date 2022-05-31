@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-/* Assign default font and background color for the website */ 
+
+/* Assign default font and background color for the website */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -32,9 +33,9 @@ body {
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
-  }
+}
 
-/* Style the logo link */ 
+/* Style the logo link */
 
 .header a.logo {
     font-size: 25px;
@@ -51,7 +52,7 @@ body {
 /*  Gave style to the active link */
 
 .header a.active {
-    background-color:  rgb(239, 180, 190);
+    background-color: rgb(239, 180, 190);
     color: #FFFFFF;
 }
 
@@ -90,7 +91,7 @@ body {
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4 rem rgba(86, 185,235, 0.5);
+    box-shadow: 0 0.4rem 1.4 rem rgba(86, 185, 235, 0.5);
     transform: translate(-0.1rem);
     transition: 100ms;
 }
