@@ -14,25 +14,28 @@
 </head>
 
 <body>
-
+    <!-- Top Navigation Menu -->
     <div class="header">
-        <a href="#home" class="logo">
-            <a href="index.html" class="logo">
-                <i class="fa-solid fa-f"></i>
-                <i class="fa-solid fa-r"></i>
-                <i class="fa-solid fa-i"></i>
-                <i class="fa-solid fa-e"></i>
-                <i class="fa-solid fa-n"></i>
-                <i class="fa-solid fa-d"></i>
-                <i class="fa-solid fa-s"></i>
-            </a>
-            <div class="header-right">
-                <a class="active" href="#home">Home</a>
-                <a href="#contact">About</a>
-                <a href="#about">Shop</a>
-            </div>
+        <a href="#home" class="active">
+            <i class="fa-solid fa-f"></i>
+            <i class="fa-solid fa-r"></i>
+            <i class="fa-solid fa-i"></i>
+            <i class="fa-solid fa-e"></i>
+            <i class="fa-solid fa-n"></i>
+            <i class="fa-solid fa-d"></i>
+            <i class="fa-solid fa-s"></i>
+        </a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="header-right">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-
     <!--Question area-->
     <div class="quiz-container">
         <h2 class="question">What is the answer to this question?</h2>
