@@ -15,7 +15,7 @@ const question = [{
         option2: "6",
         option3: "9",
         option4: "11",
-        rightAnswer: "4",
+        correctAnswer: "4",
     },
 
     {
@@ -24,7 +24,7 @@ const question = [{
         option2: "Jack and Jill",
         option3: "Peter and Margaret",
         option4: "Gerry and Mary",
-        rightAnswer: "4",
+        correctAnswer: "4",
     },
 
     {
@@ -33,7 +33,7 @@ const question = [{
         option2: "Brian and Larry",
         option3: "Walter and Sergio",
         option4: "Chick Jr. and Duck Jr.",
-        rightAnswer: "4",
+        correctAnswer: "4",
     },
 
     {
@@ -42,7 +42,7 @@ const question = [{
         option2: "Estelle",
         option3: "Martha",
         option4: "Carole",
-        rightAnswer: "2",
+        correctAnswer: "2",
     },
 
 
@@ -52,7 +52,7 @@ const question = [{
         option2: "Plumber",
         option3: "Orthodontist",
         option4: "Journalist",
-        rightAnswer: "3",
+        correctAnswer: "3",
     },
 
     {
@@ -61,7 +61,7 @@ const question = [{
         option2: "Apple",
         option3: "Kiwi",
         option4: "Pomegranate",
-        rightAnswer: "3",
+        correctAnswer: "3",
     },
 
     {
@@ -70,7 +70,7 @@ const question = [{
         option2: "Grodno",
         option3: "Mogilev",
         option4: "Pinsk",
-        rightAnswer: "1",
+        correctAnswer: "1",
     },
 
     {
@@ -79,7 +79,7 @@ const question = [{
         option2: "Coffee",
         option3: "Daddy",
         option4: "Hi",
-        rightAnswer: "4",
+        correctAnswer: "4",
     },
 
 
@@ -89,7 +89,7 @@ const question = [{
         option2: "Jake Becker",
         option3: "Pete Becker",
         option4: "Boris Becker",
-        rightAnswer: "3",
+        correctAnswer: "3",
     },
 
 ]

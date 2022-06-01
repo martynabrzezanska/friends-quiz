@@ -84,3 +84,47 @@ footer .icon-media {
     text-decoration: none;
     color: white;
 }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0.5px solid rgb(234, 169, 234);
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transform: translate(-0.1rem);
+    transition: 100ms;
+}
+
+.choice-prefix {
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(234, 169, 234);
+    border-radius: 10px 10px;
+    color: black;
+}
+
+.choice-container .choice-text {
+    margin: 0 auto;
+}
+
+.choice-text {
+    padding: 0.5rem;
+    font-size: 20px;
+}
