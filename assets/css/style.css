@@ -130,3 +130,8 @@ footer .icon-media {
     padding: 1rem;
     font-size: 20px;
 }
+
+.question-container {
+    min-width: 300px;
+    max-width: 300px;
+}
