@@ -94,21 +94,21 @@ const quizQuestions = [{
 ]
 
 // Get elements from the DOM and store their values in variables 
-document.addEventListener('DOMContentLoaded', () => {
 
-    let score;
-    let currentQuestionIndex = 0;
-    let questionEl = document.getElementsByClassName('question-bar');
-    let choicesEl = document.getElementsByClassName('choice-text');
-    let answerA = document.getElementById('answer-a');
-    let answerB = document.getElementById('answer-b');
-    let answerC = document.getElementById('answer-c');
-    let answerD = document.getElementById('answer-d');
-    let questionCounter = document.getElementById('question-counter');
-    let nextButtonEl = document.getElementById('next-btn');
-    let submitButtonEl = document.getElementById('submit-btn');
 
-})
+let score;
+let questionEl = document.getElementsByClassName('question-bar');
+let choicesEl = document.getElementsByClassName('choice-text');
+let answerA = document.getElementById('answer-a');
+let answerB = document.getElementById('answer-b');
+let answerC = document.getElementById('answer-c');
+let answerD = document.getElementById('answer-d');
+let questionCounter = document.getElementById('question-counter');
+let nextButtonEl = document.getElementById('next-btn');
+let submitButtonEl = document.getElementById('submit-btn');
+
+let questionIndex = 0;
+let currentQuestion = quizQuestions[questionIndex];
 
 /* Hamburger menu to toggle between showing and hiding the navigation menu with a click */
 
@@ -122,5 +122,14 @@ function myFunction() {
 }
 
 function loadQuestions() {
-    answerA = quizQuestions.
+    let question = currentQuestion.question
+    let answerA = currentQuestion.a
+    let answerB = currentQuestion.b
+    let answerC = currentQuestion.c
+    let answerD = currentQuestion.d
+
+
+    console.log(question);
 }
+
+loadQuestions()
