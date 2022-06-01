@@ -88,7 +88,9 @@ footer .icon-media {
 .container {
     width: 100vw;
     height: 100vh;
+    background-color: white;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -125,6 +127,6 @@ footer .icon-media {
 }
 
 .choice-text {
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 20px;
 }

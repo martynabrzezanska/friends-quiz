@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let acceptAnswers;
     let maxQuestions = 10;
     let currentQuestionIndex = 0;
-    const question = document.getElementsByClassName('question');
+    const question = document.getElementsByClassName('question-bar');
     let choices = document.getElementsByClassName('choice-text');
     let questionCounter = document.getElementById('question-counter');
     let nextButton = document.getElementsByClassName('next-btn')[0];
