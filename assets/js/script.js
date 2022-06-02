@@ -1,6 +1,7 @@
+// Declare quiz questions with a constant variable since the variable's value will not change. 
+
 const quizQuestions = [{
         question: "Where do Rachel and Ross go on their first date?",
-
         a: "The cinema",
         b: "A planetarium",
         c: "Central Park",
@@ -109,7 +110,7 @@ let submitButtonEl = document.getElementById('submit-btn');
 
 let questionIndex = 0;
 
-/* Hamburger menu to toggle between showing and hiding the navigation menu with a click */
+// Hamburger menu to toggle between showing and hiding the navigation menu with a click.
 
 function myFunction() {
     var x = document.getElementById("header-right");
@@ -120,8 +121,11 @@ function myFunction() {
     }
 }
 
+// Create a function that will display questions from the list of arrays.
 function loadQuestions() {
+    // Target the first question to display to the user.  
     let currentQuestion = quizQuestions[questionIndex];
+    // Return the correspondent text content of the descendant question.
     questionEl.textContent = currentQuestion.question
     answerAEl.textContent = currentQuestion.a
     answerBEl.textContent = currentQuestion.b
