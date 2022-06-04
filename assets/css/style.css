@@ -10,14 +10,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: white;
+    background-color: #F00;
 }
 
 /* Style the header with a yellow background and some padding */
 
 .header .logo {
     overflow: hidden;
-    background-color: rgb(109, 202, 233);
+    background-color: #6CF;
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
@@ -31,7 +31,7 @@ body {
 }
 
 .header a {
-    color: black;
+    color: #C00;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -52,7 +52,7 @@ body {
 }
 
 .header a.icon-bar {
-    background: rgb(109, 202, 233);
+    background: #6CF;
     font-size: 30px;
     display: block;
     position: absolute;
@@ -63,7 +63,7 @@ body {
 
 
 footer {
-    background-color: rgb(185, 58, 185);
+    background-color: #C3C;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -82,13 +82,13 @@ footer .icon-media {
 
 .icon-media a {
     text-decoration: none;
-    color: white;
+    color: #F00;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: #F00;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -106,7 +106,7 @@ footer .icon-media {
     font-size: 1.8rem;
     font-weight: bold;
     border-radius: 10px;
-    border: 0.5px solid rgb(234, 169, 234);
+    border: 0.5px solid #F9F;
 }
 
 .choice-container:hover {
@@ -117,9 +117,9 @@ footer .icon-media {
 
 .choice-prefix {
     padding: 0.5rem 1.5rem;
-    background-color: rgb(234, 169, 234);
+    background-color: #F9F;
     border-radius: 10px 10px;
-    color: black;
+    color: #C00;
 }
 
 .choice-container .choice-text {
