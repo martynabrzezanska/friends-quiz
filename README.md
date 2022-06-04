@@ -2,6 +2,8 @@
 ## Introduction 
 **Friends** is an American television sitcom, which aired on NBC from 1994 to 2004, lasting ten seasons. With an ensemble cast consisting of **Jennifer Aniston**, **Courteney Cox**, **Lisa Kudrow**, **Matt LeBlanc**, **Matthew Perry** and **David Schwimmer**, the show revolves around six friends in their 20s and 30s who live in Manhattan, New York City. This is a show about love and sex and careers and a time in life when everything is possible ... about the search for commitment and security ... and the fear of commitment and security. Most of all, it's about friendship--for when you're young and single in the city, your friends are your family. Ultimately the big core reason *‘Friends’* was so universally popular and remains so is the fact that it is a show about friendship. For every viewer that was something that they could relate to, yet not everyone has experienced in such magical style. The sitcom has acclaim throughout its run, becoming one of the most popular television shows of all time!! the series was nominated for 62 [Primetime Emmy Awards](http://en.wikipedia.org/wiki/Primetime_Emmy_Awards), winning the [Outstanding Comedy Series](https://en.wikipedia.org/wiki/Primetime_Emmy_Award_for_Outstanding_Comedy_Series). 
 
+>It is unquestionably a *MUST* see show; it is packed with tremendous laughs, making it a great way to pass the time, but most importantly, it contains numerous life lessons.
+
 ## The Goal of the Quiz
 The main reason of this quiz to test the quizzer's knowledge of Friends, and whether they are the REAL FRIENDS FAN. The quiz is mainly targets those who have previously watched Friends and are looking to sharpen their Friends trivia knowledge. The quiz will help the quizzer see if they're an expert on all things Central Perk, or just a Smelly Cat. 
 
@@ -18,6 +20,9 @@ The main reason of this quiz to test the quizzer's knowledge of Friends, and whe
 9. Refresh the page and the live link is ready in a few minutes.
 
 [Click Here]()
+
+># User Experience 
+
 
 ># Credits
 
