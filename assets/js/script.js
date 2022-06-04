@@ -96,7 +96,6 @@ const quizQuestions = [{
 
 // Get elements from the DOM and store their values in variables 
 
-
 let score;
 let questionEl = document.getElementById('question-bar');
 let choicesEl = document.getElementsByClassName('choice-text');
@@ -122,6 +121,7 @@ function myFunction() {
 }
 
 // Create a function that will display questions from the list of arrays.
+
 function loadQuestions() {
     // Target the first question to display to the user.  
     let currentQuestion = quizQuestions[questionIndex];
