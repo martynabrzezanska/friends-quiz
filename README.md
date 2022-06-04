@@ -14,7 +14,12 @@
 
 # H1 Credits
 
-> Roboto and Patric Hand font was taken from [Google Fonts](http://fonts.google.com).
-> [W3 Schools](http://w3schools.com), [Stackoverflow](https://stackoverflow.com), and [MDN Web Docs](http://developer.mozilla.org) all provided me with learning resources.
-> [CSS Color Converter](htpp://maetting.com) was used to convert colors. 
+1. Roboto and Patric Hand font was taken from [Google Fonts](http://fonts.google.com).
+2. The icons used in this project were all sourced from the [Font Awesome](http://fontawesome.com).
+3. [W3 Schools](http://w3schools.com), [Stack Overflow](https://stackoverflow.com), and [MDN Web Docs](http://developer.mozilla.org) all provided me with learning resources and high quality answers and questions about programming.
+4. [Code Institute](http://codeinstitute.com) lectures and "Love Maths" walk through project have provided me with the necessary foundational knowledge, which, when supplemented with research, has enabled me to accomplish this project. 
+5. [freeCodeCamp](http://freecodecamp.org) has also served as a learning resource for me, through the completion of series of interactive coding lessons. 
+6. [Traversy Media- youtuber](http://youtube.com/c/TraversyMedia) another excellent learning resource that has proven to be really beneficial to me. 
+7. [CSS Color Converter](http://maetting.com) was used to convert the majority of the colors to hexadecimal notations, which are supported by all browsers.
+
 
