@@ -85,10 +85,16 @@ footer .icon-media {
     color: #FFFFFF;
 }
 
+#background-image {
+    background-image: url(/assets/images/pexels-photo-2088142.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
