@@ -23,6 +23,19 @@ The main reason of this quiz to test the quizzer's knowledge of Friends, and whe
 
 ># User Experience 
 
+- As a user, I want to be able to test my knowledge of the show by seeing if I can remember all these questions. The user also wants the quiz to match the show's character, including theme colors and other theme related elements. 
+> The quiz is made up fo numerous questions based on the television sitcom Friends. Because questions focuses on all ten seasons, only a real true Friends fan would be able to complete it and answer all of the questions effectively and correctly. The Friends quiz is an aesthetic tool for the representation of show colors.
+The logo has two blue dots, which also stand for two of the characters. Blue signifies faith, loyalty, and confidence. It also represents stability, calmness, and peacefulness. The blue color reflects the cordial relationship between Joey and Chandler. It was a well-portrayed color in the show. Yellow conveys happiness, clarity, and freshness. It also signifies energy and caution, it links to Phoebe and Monica. Red on the other hand links to Rachel and Ross. It signify sunshine, desire, passion, and love that emanated between the two characters. 
+
+- As a user, I want ot be able to view numerous answer alternatives so that I can attempt to pick the correct answer by picking one of them.
+>There are four possibilities for the user to choose from in each question, and the user can only select one response. When one of the answers is chosen, the other three options are automatically disabled and cannot be picked.
+
+- As a user, I want to know if I got it right or wrong when I choose one of the possible answers.
+>The options have the correct or incorrect answer indicators. When the user selects the correct answer, the button turns to a green background color. And if the user selects the incorrect answer, it highlights in red background color.
+
+-As a user, I'd like to see my total score at the end of the game so that I can see how I did and aim to beat it when I play again.
+>At the conclusion of the quiz, the user receives quick feedback. The feedback is brief and to-the-point. It displays the total number of points earned to the user.
+
 
 ># Credits
 
