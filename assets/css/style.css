@@ -86,7 +86,8 @@ footer .icon-media {
 }
 
 #background-image {
-    background-image: url(/assets/images/pexels-photo-2088142.jpeg);
+    background-image: url(/assets/images/pexels-photo-2088142.jpeg) alt="A photo of clouds during daytime.";
+    /* Image taken from https://www.pexels.com/photo/photo-of-clouds-during-daytime-2088142/ */
     background-position: center;
     background-size: cover;
     position: relative;
